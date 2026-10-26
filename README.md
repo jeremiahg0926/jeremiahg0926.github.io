@@ -1,4 +1,4 @@
-# Jeremiah G - Portfolio
+# Jeremiah Gonzalez - Portfolio
 
 Personal portfolio site showcasing my work in cybersecurity, security automation, and secure development.
 
