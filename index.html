@@ -3,47 +3,129 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>[TODO: page title]</title>
-  <meta name="description" content="[TODO: site description]">
+  <title>Jeremiah Gonzalez | Security Operations &amp; Vulnerability Management</title>
+  <meta name="description" content="IT Security Administrator at a CMMC Level 2 defense contractor, focused on Microsoft security operations, endpoint security, and vulnerability management.">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <h1>[TODO: site name]</h1>
+    <h1>Jeremiah Gonzalez</h1>
     <nav aria-label="Main">
       <ul>
-        <li><a href="#about">[TODO: About link text]</a></li>
-        <li><a href="#skills">[TODO: Skills link text]</a></li>
-        <li><a href="#projects">[TODO: Projects link text]</a></li>
-        <li><a href="#contact">[TODO: Contact link text]</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Selected Work</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section id="about" aria-labelledby="about-heading">
-      <h2 id="about-heading">[TODO: About heading]</h2>
-      <p>[TODO: About content]</p>
+      <h2 id="about-heading">About</h2>
+      <p>I'm an IT Security Administrator at a CMMC Level 2 defense contractor, where I run the vulnerability remediation program, tune Microsoft Sentinel detections, respond to security incidents, and manage endpoint security policies and compliance through Microsoft Intune across a Microsoft 365 environment.</p>
+      <p>I'm graduating from Florida State University in May 2027 and looking for a new-grad role in security operations, detection engineering, vulnerability management, or security engineering. I'm currently building depth in KQL-driven detection and endpoint hardening.</p>
     </section>
 
     <section id="skills" aria-labelledby="skills-heading">
-      <h2 id="skills-heading">[TODO: Skills heading]</h2>
-      <p>[TODO: Skills content]</p>
+      <h2 id="skills-heading">Skills</h2>
+
+      <h3>Security</h3>
+      <ul>
+        <li>Vulnerability management (Defender TVM, CISA KEV/NVD triage, risk-based SLA remediation)</li>
+        <li>Incident response</li>
+        <li>Sentinel alert tuning</li>
+        <li>Application control (WDAC)</li>
+        <li>Conditional Access and MFA</li>
+        <li>CMMC Level 2 / NIST 800-171</li>
+      </ul>
+
+      <h3>Platforms &amp; tools</h3>
+      <ul>
+        <li>Microsoft Sentinel</li>
+        <li>Defender for Endpoint</li>
+        <li>Intune</li>
+        <li>Entra ID</li>
+        <li>FreshService</li>
+      </ul>
+
+      <h3>Scripting &amp; development</h3>
+      <ul>
+        <li>KQL</li>
+        <li>PowerShell</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git/GitHub</li>
+      </ul>
     </section>
 
     <section id="projects" aria-labelledby="projects-heading">
-      <h2 id="projects-heading">[TODO: Projects heading]</h2>
-      <p>[TODO: Projects content]</p>
+      <h2 id="projects-heading">Selected Work</h2>
+
+      <article aria-labelledby="scope-heading">
+        <h3 id="scope-heading">SCOPE: Software Compliance Observability &amp; Policy Engine</h3>
+        <p>Shows at a glance which installed apps on each endpoint are approved, outside version policy, or unapproved.</p>
+        <p>Sole builder of a single-file, fully client-side tool. It ingests a Defender software inventory and policy-baseline CSVs, evaluates each app against per-user policy groups and version rules, and exports filterable reports to Excel. In production use; cut software-audit time by about 50%.</p>
+        <ul>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>SheetJS</li>
+        </ul>
+        <p>Internal tool; not publicly available.</p>
+      </article>
+
+      <article aria-labelledby="vuln-heading">
+        <h3 id="vuln-heading">Vulnerability Remediation Program</h3>
+        <p>Takes findings from discovery to verified closure, with an audit trail strong enough for CMMC assessments.</p>
+        <p>I designed and run the program. Defender TVM findings are prioritized using CISA KEV, ticketed with risk-based SLA tiers, patched through Intune, and verified closed.</p>
+        <ul>
+          <li>Defender TVM</li>
+          <li>CISA KEV</li>
+          <li>FreshService</li>
+          <li>Intune</li>
+        </ul>
+      </article>
+
+      <article aria-labelledby="firewall-heading">
+        <h3 id="firewall-heading">Endpoint Firewall Control Audit</h3>
+        <p>Checks whether endpoint firewall settings actually match the approved baseline.</p>
+        <p>Led the audit, built a baseline mapped to NIST 800-171, ran 31 control validation tests using KQL, PowerShell, and Windows Filtering Platform event analysis, and documented findings with remediation plans.</p>
+        <ul>
+          <li>Intune</li>
+          <li>KQL</li>
+          <li>PowerShell</li>
+          <li>WFP</li>
+        </ul>
+      </article>
+
+      <article aria-labelledby="portfolio-heading">
+        <h3 id="portfolio-heading">This Portfolio Site</h3>
+        <p>A hand-built, accessible portfolio developed with a branch-and-PR workflow, with an AI coding agent working under project rules I wrote and reviewed.</p>
+        <p>Planned each milestone, wrote task prompts and acceptance criteria for Claude Code, reviewed every diff, tested in the browser, and merged through pull requests.</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Git/GitHub</li>
+          <li>Claude Code</li>
+          <li>GitHub Pages</li>
+        </ul>
+        <p><a href="https://github.com/jeremiahg0926/jeremiahg0926.github.io" rel="noopener noreferrer">View source on GitHub</a></p>
+      </article>
     </section>
 
     <section id="contact" aria-labelledby="contact-heading">
-      <h2 id="contact-heading">[TODO: Contact heading]</h2>
-      <p>[TODO: Contact content]</p>
+      <h2 id="contact-heading">Contact</h2>
+      <ul>
+        <li><a href="https://github.com/jeremiahg0926" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/jeremiahgonzalez" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="mailto:jerryg0926@gmail.com">jerryg0926@gmail.com</a></li>
+      </ul>
     </section>
   </main>
 
   <footer>
-    <p>[TODO: footer text]</p>
+    <p>&copy; 2026 Jeremiah Gonzalez</p>
   </footer>
 </body>
 </html>

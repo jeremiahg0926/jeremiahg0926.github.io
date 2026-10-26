@@ -22,4 +22,5 @@ Static portfolio site hosted on GitHub Pages from the `main` branch.
 
 ## Content rules
 - Never invent experience, certifications, projects, or metrics. Use clearly marked placeholders like [TODO: ...].
-- Never include employer names, internal tools, configurations, or findings from my job.
+- Never include employer names, internal configurations, code, screenshots, data, or specific audit findings from my job.
+- Job work may be described at a capability level only, using text I have written and approved.
